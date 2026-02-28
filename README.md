@@ -3,11 +3,11 @@
 Ce projet implémente un algorithme de compression sans perte en Julia, optimisé pour les fichiers texte volumineux (jusqu'à 1.2 Go).
 
 ## Résultats Expérimentaux
-| Fichier Source    | Taille Initiale   | Taille Compressée | Ratio | Temps |
-| :---              | :---              | :---              | :---  | :---  |
-| texte_200Mo.txt   | 200 Mo            | 53.53  Mo         | 10.4x | ~45s  |
-| texte_400Mo.txt   | 400 Mo            | 107.04 Mo         | 10.2x | ~92s  |
-| texte_1200Mo.txt  | 1.2 Go            | 328.87 Mo         | 10.1x | ~5min |
+| Fichier Source    | Taille Initiale   | Taille Compressée  | Temps  |
+| :---              | :---              | :---               | :---   |
+| texte_200Mo.txt   | 200 Mo            | 53.53  Mo          | 0.684s |
+| texte_400Mo.txt   | 400 Mo            | 107.04 Mo          | 1.309s |
+| texte_1200Mo.txt  | 1.2 Go            | 328.87 Mo          | 3.781s |
 
 ## Architecture du Système
 L'algorithme utilise un pipeline en deux étapes :
