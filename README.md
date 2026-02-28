@@ -1,4 +1,4 @@
-# LZ77 + Huffman High-Performance Compressor
+# LZ77 + Huffman 
 
 Ce projet implémente un algorithme de compression sans perte en Julia, optimisé pour les fichiers texte volumineux (jusqu'à 1.2 Go).
 
